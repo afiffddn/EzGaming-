@@ -1,0 +1,139 @@
+<!DOCTYPE>
+<html>
+
+<head>
+
+<title> Ez Gaming | Home </title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="Gambar/ez.png"/>
+<link href="home.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="home.html"> Ez Gaming </a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="#featured-content"> Games </a></li>
+					<li><a href="Ticket.html"> Buy Ticket </a></li>
+					<li><a href="About.html"> About Us </a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="banner">
+			<div class="content">
+				<div><img src="Gambar/home/0.jpg" width="1000" height="400" alt="" /></div>
+			</div>
+		</div>
+	</div>
+
+<center>
+	<p id="demo"></p>
+
+	<script>
+
+	var countDownDate = new Date("March 6, 2020 00:00:00").getTime();
+
+
+	var x = setInterval(function() {
+
+
+	  var now = new Date().getTime();
+
+
+	  var distance = countDownDate - now;
+
+
+	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+	  document.getElementById("demo").innerHTML =" Countdown Till Next Tournament = " + days + " Days " + hours + " Hours "
+	  + minutes + " Mins " + seconds + " Secs ";
+
+	  // If the count down is finished, write some text
+	  if (distance < 0) {
+	    clearInterval(x);
+	    document.getElementById("demo").innerHTML = " Tournament Is Ongoing ";
+	  }
+	}, 1000);
+	</script>
+</center>
+
+	<div id="page">
+		<div class="post">
+			<h3 class="title"> <center><b> DreamHack Season 13: The KL Major </b></center> </h3>
+			<div class="entry">
+				<p><center><b> DreamHack Season 13 is the second Major of the 2019/20 E-Sport season.The event will be held in mid-March at the Axiata Arena, ahead of Summit.<br> <br> Featuring a $ 1,000,000 USD prize pool and 15,000 DPC points up for grabs.</b> </center> </p>
+			</div>
+</div>
+</div>
+
+	<div id="featured-content">
+		<div id="column1">
+			<h2>  Tekken 7 </h2>
+			<p><img src="Gambar/home/1.jpg" width="300" height="150" alt="" /></p>
+			<p> Tekken 7 is the latest installment in Tekken series, is a fighting game developed and published by Namco ... </p>
+			<p class="button"><a href="tekken.html"> Read More </a></p>
+		</div>
+		<div id="column2">
+			<h2> CS : GO </h2>
+			<p><img src="Gambar/home/2.jpg" width="300" height="150" alt="" /></p>
+			<p> Counter-Strike : GO is a free-to-play FPS video game developed by Valve and Hidden Part Entertainment ... </p>
+			<p class="button"><a href="counter strike.html"> Read More </a></p>
+		</div>
+		<div id="column3">
+			<h2> Dota 2 </h2>
+			<p><img src="Gambar/home/3.jpg" width="300" height="150" alt="" /></p>
+			<p> Dota 2 is a multiplayer online battle arena (MOBA) video game developed and published by Valve ... </p>
+			<p class="button"><a href="dota.html"> Read More </a></p>
+		</div>
+	</div>
+</div>
+
+<div id="footer-content-wrapper">
+	<div id="footer-content">
+		<div id="fbox1">
+			<h2> Participants </h2>
+			<ul class="style1">
+				<li> Fifteen Teams from Regional Qualifiers </li>
+				<li> At least two teams from each region </li>
+				<li> One team as champion of US Minor </li>
+			</ul>
+		</div>
+		<div id="fbox2">
+			<h2> Group Stage </h2>
+			<ul class="style1">
+				<li> All games are Best of 3 </li>
+				<li> Top 2 teams advance to the Upper Bracket </li>
+				<li> Last 2 teams advance to the Lower Bracket </li>
+			</ul>
+		</div>
+		<div id="fbox3">
+			<h2> Playoffs </h2>
+			<ul class="style1">
+				<li> Double elimination bracket </li>
+				<li> Final 3 days will be in front of a live crowd </li>
+				<li> Best of 5 Grand Finals </li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<footer id="footer">
+	  <center><a href="http://facebook.com" class="fa fa-facebook"></a>
+	  <a href="http://twitter.com" class="fa fa-twitter"></a>
+	  <a href="http://instagram.com" class="fa fa-instagram"></a>
+	  <a href="http://www.google.com" class="fa fa-google"></a>
+	  </footer>
+	<center class="op"><blockquote><p><q> Gamer Don't Die, They Respawn </q></p></blockquote></center>
+</div>
+</body>
+</html>

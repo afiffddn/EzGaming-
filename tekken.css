@@ -1,0 +1,290 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url('Gambar/tekken/0.jpg') repeat;
+	font-family: 'Abel', sans-serif;
+	font-size: 15px;
+	color: #8F8F8F;
+}
+
+@font-face {
+   font-family:archive;
+   src: url(Archive.otf);
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: 300;
+	color:red;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+a {
+	color: #2B2B2B;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	border-radius: 15px;
+}
+
+img.alignleft {
+	float: left;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#wrapper {
+	overflow: hidden;
+	padding: 0px 0px 50px 0px;
+	background: url(Gambar/tekken/0.jpg) repeat;
+}
+
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+#header-wrapper {
+	overflow: hidden;
+	height: 80px;
+	background: url(Gambar/tekken/0.jpg) repeat;
+}
+
+#logo {
+	position: relative;
+	float: left;
+	width: 480px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+#logo h1 {
+	margin: 0px;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+#logo h1 a {
+	display: block;
+	padding: 10px 0px 0px 0px;
+	text-decoration: none;
+	color:#DF1326;
+	font-size:1.8em;
+}
+
+#menu {
+	float: right;
+	height: 99px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+
+#menu a {
+	display: block;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: 300;
+	color:white;
+	font-family: "archive";
+	margin-top: 10px;
+}
+
+#menu a:hover {
+	color:#DF1326;
+}
+
+#menu .active a {
+	border-radius: 5px;
+	background: #2B2B2B;
+	color: #FFFFFF;
+}
+
+#content {
+	float: left;
+	width: 615px;
+}
+
+#content h2 {
+	margin-bottom: 20px;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 5px solid grey;
+	color:#DF1326;
+	font-family: "archive";
+}
+
+#content dt {
+	font-size: 19px;
+	font-family: "Abel";
+	color: #DF1326;
+}
+
+#content dd {
+	font-size: 18px;
+	font-family: "Abel";
+	color: white;
+}
+
+#content li {
+	font-size: 18px;
+	font-family: "Abel";
+	color: white;
+}
+
+#sidebar {
+	float: right;
+	width: 290px;
+}
+
+#sidebar h2 {
+	margin-bottom: 20px;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 5px solid grey;
+	color:#DF1326;
+	font-family:"archive";
+}
+
+#footer {
+	overflow: hidden;
+	height: 130px;
+	border-top: 5px solid #DF1326;
+	background: url(Gambar/tekken/5.gif) repeat;
+}
+
+#banner {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#banner video {
+	border-top: 3px solid grey;
+	border-bottom: 3px solid grey;
+	border-left: 3px solid #DF1326;
+	border-right: 3px solid #DF1326;
+	border-radius: 15px;
+}
+
+#three-column {
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding: 0px 0px 30px 0px;
+}
+
+#three-column img {
+	border: 2px solid grey;
+}
+
+#three-column h2 {
+	padding: 0px 0px 10px 0px;
+	color: #DF1326;
+	font-family: "archive";
+}
+
+#three-column p {
+	color:white;
+	font-size:18px;
+	font-family:"Abel";
+}
+
+#three-column #column1 {
+	float: left;
+	width: 300px;
+}
+
+#three-column #column1 {
+	float: left;
+	width: 250px;
+	margin-right: 35px;
+	padding: 20px;
+	background: #000000;
+	margin-top:30px;
+	border-radius: 15px;
+}
+
+#three-column #column2 {
+	float: left;
+	width: 250px;
+	margin-right: 35px;
+	padding: 20px;
+	background: #000000;
+	margin-top:30px;
+  border-radius: 15px;
+}
+
+#three-column #column3 {
+	float: right;
+	width: 250px;
+	padding: 20px;
+	background: #000000;
+	margin-top:30px;
+	border-radius: 15px;
+}
+
+ul.style1 {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+}
+
+ul.style1 b {
+	color:#DF1326;
+}
+
+ul.style1 li {
+	padding: 10px 0px 10px 0px;
+	border-bottom: 3px solid grey;
+	line-height: 160%;
+	color:white;
+	font-size: 18;
+	font-family: "Abel";
+}
+
+ul.style1 a {
+	display: block;
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	color:white;
+	font-family:"Abel";
+	font-size: 18;
+}
+
+ul.style1 .first {
+	border-top: none;
+	padding-top: 0px;
+}
